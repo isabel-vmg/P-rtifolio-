@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: rgb(32, 29, 54);
+    color: gainsboro;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 10px;
+    padding: 10%;
+}
+
+.contato, ul{
+    list-style: none;
+    
+}
