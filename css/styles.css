@@ -6,9 +6,33 @@ body {
     font-size: large;
     margin: 10px;
     padding: 10%;
+    
+    
+}
+
+#Isabel {
+    background-color: rgb(85, 91, 110);
+    margin: 0%;
+    display: inline-block;
 }
 
 .contato, ul{
     list-style: none;
-    
+    padding: 0%;
+}
+
+/* Links */
+
+a {
+    color: gainsboro;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+.conhecimento{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
