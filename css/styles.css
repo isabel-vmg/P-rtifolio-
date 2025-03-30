@@ -1,15 +1,14 @@
+/* Estilos Gerais */
+
 body {
     text-align: center;
-    background-color: rgb(32, 29, 54);
+    background-color: rgb(20, 20, 20);
     color: gainsboro;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
-    margin: 10px;
-    padding: 10%;
-    border: 30px;
-    border-color: rgb(200, 215, 223);
-    
-    
+    margin: 30px;
+    padding: 20%;
+    border: 0.7px solid #d2e0e9;
 }
 
 #Isabel {
@@ -18,23 +17,55 @@ body {
     display: inline-block;
 }
 
-.contato, ul{
-    list-style: none;
-    padding: 0%;
-}
-
 /* Links */
 
 a {
     color: gainsboro;
+    text-decoration: none;
 }
 
 a:hover {
     font-size: larger;
+    transition-duration: 0.5s;
+    opacity: 80%;
+    color: rgb(62, 72, 82);
+
+
 }
+
+
+/* Estilizando Card de Conhecimentos */
 
 .conhecimento{
     font-size: 30px;
+    background-color: rgb(62, 72, 82);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10%;
+}
+
+
+/* Contatos */
+
+.contato, ul{
+    list-style: none;
+    padding: 0%;    
+}
+
+#ct {
+    display: flex;
+    
+}
+
+/* Espaçamentos */
+
+.one {
+    padding: 10%;
+}
+
+.two {
+
+}
+
+.three {
 
 }
