@@ -18,6 +18,9 @@ body {
 #Isabel {
     background-color:  rgb(99, 101, 107);
     display: inline-block;
+    border-radius: 5%;
+    box-shadow: 0 0 3px 3px #504f55;
+
 }
 
 #desc {
@@ -45,20 +48,7 @@ a:hover {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-
-/* Contatos */
-
-.contato, ul{
-    list-style: none;    
-    margin: 5;
-
-}
-
-#ct {
-    padding: 0;
-   
+    box-shadow: 0 0 3px 3px #504f55;
 }
 
 /* Espaçamentos */
@@ -79,16 +69,37 @@ a:hover {
 /* Estilizando Projetos */
 
 .projetos {
-    padding: 20%;
+    padding: 15%;
+    padding-bottom: 10%;
+    padding-top: 10%;
 
 }
 
 .projectsItem {
-    display: inline-flex;
+    display: block;
     padding: 20%;
     margin: 10%;
-    border: 0.7px hidden #d2e0e9;
+    border-radius: 5%;
+    box-shadow: 0 0 3px 3px #504f5575;
+    background-color: rgba(99, 101, 107, 0.253) ;
    
+}
+
+
+/* Contatos */
+
+.contato, ul{
+    list-style: none;    
+    margin: 5;
+}
+
+#ct {
+    padding: 0;
+   
+}
+
+.linkagem {
+    padding-bottom: 3%;
 }
 
 /* Rodapé */
